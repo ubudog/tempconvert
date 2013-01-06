@@ -15,7 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int calculate=0x7f050004;
-        public static final int celcius=0x7f050002;
+        public static final int celsius=0x7f050002;
         public static final int fahrenheit=0x7f050001;
         public static final int tempgroup=0x7f050000;
         public static final int value=0x7f050003;

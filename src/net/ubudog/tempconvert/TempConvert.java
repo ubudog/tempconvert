@@ -24,7 +24,7 @@ public class TempConvert extends Activity {
     public void main() { 
    //  	final RadioGroup radgroup = (RadioGroup) findViewById(R.id.tempgroup); 
     	final RadioButton fahrenheit = (RadioButton) findViewById(R.id.fahrenheit); 
-    	final RadioButton celcius = (RadioButton) findViewById(R.id.celcius);
+    	final RadioButton celsius = (RadioButton) findViewById(R.id.celsius);
     	    	
     	// Calculate it
     	Button calculatebtn = (Button) findViewById(R.id.calculate); 
@@ -36,8 +36,8 @@ public class TempConvert extends Activity {
 					String mode = "";  
 			    	if (fahrenheit.isChecked()) { 
 			    		mode = "fahrenheit"; 
-			    	} else if (celcius.isChecked()) { 
-			    		mode = "celcius"; 
+			    	} else if (celsius.isChecked()) { 
+			    		mode = "celsius"; 
 			    	} else { 
 			    		Toast errorToast = Toast.makeText(getApplicationContext(), "Please select a conversion.", Toast.LENGTH_LONG); 
 			    		errorToast.show(); 
@@ -66,7 +66,7 @@ public class TempConvert extends Activity {
     		result = (int) (value*fraction); 
     		Toast resultToastF = Toast.makeText(getApplicationContext(), "Result: " + result, Toast.LENGTH_LONG); 
     		resultToastF.show(); 
-    	} else if (mode.equals("celcius")) {
+    	} else if (mode.equals("celsius")) {
     		fraction = 1.8; 
     		value = (int) (value*fraction); 
     		result = value+32; 

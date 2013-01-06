@@ -17,14 +17,14 @@
     	<RadioButton
        		android:layout_width="fill_parent"
        		android:layout_height="wrap_content"
-        	android:text="Fahrenheit to Celcius"
+        	android:text="Fahrenheit to Celsius"
         	android:id="@+id/fahrenheit" />
 	    
 	    <RadioButton
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="Celcius to Fahrenheit"
-	        android:id="@+id/celcius" />
+	        android:text="Celsius to Fahrenheit"
+	        android:id="@+id/celsius" />
   	 </RadioGroup>
     <EditText
         android:layout_width="fill_parent"
