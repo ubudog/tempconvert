@@ -1,3 +1,3 @@
 TempConvert
 ============
-Simple Android temperature converter between Fahrenheit and Celcius.
+Simple Android temperature converter between Fahrenheit and Celsius.
